@@ -1,0 +1,95 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: pink;
+}
+
+.form{
+    background-color: #fff;
+    padding: 20px;
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+}
+.titulo{
+    font-size: 25px;
+    font-weight: bold;
+    display: inline-block;
+    padding-bottom: 15px ;
+}
+
+
+button{
+    border: none;
+    background: red;
+    padding: 5px;
+    color:#fff;
+    border-radius: 5px;
+}
+
+.form input{
+    margin: 5px 0;
+    padding:5px;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+input[type="submit"]{
+    border: none;
+    background: #1860a8;
+    color:#fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.eventsContainer{
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 5px;
+    width: 500px;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.event{
+    border: 1px solid #ccc;
+    padding: 15px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.event .days{
+    text-align: center;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+}
+.event .days .days-number{
+    font-size: 25px;
+    font-weight: bold;
+    display: block;
+}
+
+.event .event-name {
+    padding: 10px;
+    width: 150px;
+    text-align: center;
+}
+.event .event-Date{
+    padding: 10px;
+    width: 100px;
+}
+
+.event .actions{
+    padding: 10px;
+}
+.bDelete:hover{
+    background-color: darkred;
+}
+
+#bAdd:hover{
+    background-color: #124a81;
+}
